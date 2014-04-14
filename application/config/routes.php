@@ -41,15 +41,6 @@
 $route['default_controller'] = "home";
 $route['404_override'] = '';
 
-$route['ayuda'] = 'home/ayuda';
-$route['aviso'] = 'home/aviso';
-$route['catalogo/pag/(:num)'] = 'catalogo/index/$1';
-$route['buscar/(:any)/pag/(:num)'] = 'catalogo/buscar/$1/$2';
-$route['buscar/(:any)'] = 'catalogo/buscar/$1';
-$route['buscar'] = 'catalogo/buscar';
-$route['etiqueta/(:any)/pag/(:num)'] = 'catalogo/etiqueta/$1/$2';
-$route['etiqueta/(:any)'] = 'catalogo/etiqueta/$1';
-$route['producto/(:any)'] = 'catalogo/producto/$1';
 
 
 /* End of file routes.php */

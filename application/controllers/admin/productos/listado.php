@@ -7,8 +7,6 @@ class Listado extends Admin_Controller{
 		
 		$this->load->model($this->constantData['ruta_modelo'],'',TRUE);
 		$this->load->model('images_model');
-		$this->load->model('productos/categorias_model');
-		$this->load->model('productos/rel_producto_categoria_model','prod_mod');
 
 		regiter_css(array('uploadifive','select2','select2-bootstrap'));
 		regiter_script(array('jquery.uploadifive','bootbox.min','select2.min','catalogos'));

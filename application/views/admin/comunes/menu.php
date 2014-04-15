@@ -14,8 +14,8 @@
 						<span class="icono menu subnav subnav-down"></span>
 					</a>
 					<ul class='collapsed-nav <?=($padre=='catalogos' ? 'open':'closed')?>'>
-						<li class="<?=(($padre=='catalogos' && $hijo=='productos' && $clase=='listado') ? 'active':'')?>"><a href="admin/productos/">Listado</a></li>
-                        <li class="<?=(($padre=='catalogos' && $hijo=='clientes' && $clase=='listado') ? 'active':'')?>"><a href="admin/clientes/">Categorias</a></li>
+						<li class="<?=(($padre=='catalogos' && $hijo=='productos' && $clase=='listado') ? 'active':'')?>"><a href="admin/productos/">Productos</a></li>
+                        <li class="<?=(($padre=='catalogos' && $hijo=='clientes' && $clase=='listado') ? 'active':'')?>"><a href="admin/clientes/">Clientes</a></li>
 					</ul>
 				</li>
 
@@ -26,20 +26,6 @@
 					</a>
 				</li>
 
-				<li class="<?=$padre=='Clientes' || $hijo=='listado' ? 'active':''?>">
-					<a href="admin/productos/listado" class='light'>
-						<div class="ico"><i class="fa fa-home icon-white"></i></div>
-						Inicio
-					</a>
-				</li>
-                
-				
-                <li class="<?=$padre=='pedidos' ? 'active':''?>">
-					<a href="admin/pedidos/listado" class='light'>
-						<div class="ico"><i class="fa fa-credit-card icon-white"></i></div>
-						Pedidos
-					</a>
-				</li>
 				<li class="<?=$padre=='usuarios' ? 'active':''?>">
 					<a href="#" class='light toggle-collapsed'>
 						<div class="ico"><i class="fa fa-user icon-white"></i></div>

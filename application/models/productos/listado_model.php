@@ -8,8 +8,7 @@ class Listado_Model extends CI_Model {
 	{
 		parent::__construct();
 		$this->fields = $this->initFields();
-		$this->load->model('images_model');
-		$this->load->model('productos/rel_producto_categoria_model');
+		$this->load->model('images_model');	
 	}
 
 	function initFields()

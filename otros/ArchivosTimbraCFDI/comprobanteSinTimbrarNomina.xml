@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:nomina="http://www.sat.gob.mx/nomina" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd http://www.sat.gob.mx/nomina
+http://www.sat.gob.mx/sitio_internet/cfd/nomina/nomina11.xsd" version="3.2" folio="1" fecha="2013-12-18T12:00:00" formaDePago="Pago en una sola exhibicion" subTotal="1500.00" Moneda="MXN" descuento="30.00" motivoDescuento="Deducciones nómina" total="1370.00" tipoDeComprobante="egreso" metodoDePago="Efectivo" LugarExpedicion="PLAZA LABORACION EMPLEADO">
+  <cfdi:Emisor rfc="AAA010101AAA" nombre="PATRON S.A. DE C.V.">
+    <cfdi:DomicilioFiscal calle="CALLE EMISOR" noExterior="1" colonia="COL. EMISOR" localidad="MEXICO" municipio="MUN. EMISOR" estado="MEXICO" pais="MEXICO" codigoPostal="53125" />
+    <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="BBB010101BBB" nombre="EMPLEADO TRABAJADOR GODINEZ">
+    <cfdi:Domicilio calle="CALLE RECEPTOR" noExterior="1" noInterior="B" colonia="COL. RECEPTOR" municipio="MUN. RECEPTOR" estado="MEXICO" pais="MEXICO" codigoPostal="53100" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1" unidad="Servicio" descripcion="PAGO DE NOMINA" valorUnitario="1500.00" importe="1500.00" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosRetenidos="100.00">
+	<cfdi:Retenciones>
+		<cfdi:Retencion impuesto="ISR" importe="100.00" />
+	</cfdi:Retenciones>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+	<nomina:Nomina Version="1.1" RegistroPatronal="1234567890ABCDEFGHIJ" NumEmpleado="567" CURP="XXXX850505HDFLNS09" TipoRegimen="1" NumSeguridadSocial="28918500542" FechaPago="2014-01-15" FechaInicialPago="2014-01-01" FechaFinalPago="2014-01-15" NumDiasPagados="13.00" Departamento="SISTEMAS" CLABE="123456789123456789" Banco="002" FechaInicioRelLaboral="2013-01-01" Antiguedad="380" Puesto="ANALISTA" TipoContrato="BASE" TipoJornada="DIURNA" PeriodicidadPago="QUINCENAL" SalarioBaseCotApor="1500.00" RiesgoPuesto="1" SalarioDiarioIntegrado="115.00">
+		<nomina:Percepciones TotalGravado="1700.00" TotalExento="0.000">
+			<nomina:Percepcion TipoPercepcion="001" Clave="CLAVE INTERNA" Concepto="SUELDO" ImporteExento="0.00" ImporteGravado="1500.00"/>
+			<nomina:Percepcion TipoPercepcion="008" Clave="CLAVE INTERNA" Concepto="AYUDAS" ImporteExento="0.00" ImporteGravado="200.00"/>
+		</nomina:Percepciones>
+		<nomina:Deducciones TotalGravado="0.00" TotalExento="130.00">
+			<nomina:Deduccion TipoDeduccion="001" Clave="CLAVE INTERNA" Concepto="SEGURIDAD SOCIAL" ImporteGravado="0.00" ImporteExento="30.00"/>
+			<nomina:Deduccion TipoDeduccion="002" Clave="CLAVE INTERNA" Concepto="ISR" ImporteGravado="0.00" ImporteExento="100.00"/>
+		</nomina:Deducciones>
+		<nomina:Incapacidades>
+		<nomina:Incapacidad DiasIncapacidad="3" TipoIncapacidad="2" Descuento="100.00"/>
+		<nomina:Incapacidad DiasIncapacidad="45" TipoIncapacidad="3" Descuento="4500.00"/>
+		</nomina:Incapacidades>
+		<nomina:HorasExtras>
+		<nomina:HorasExtra Dias="3" TipoHoras="Dobles" HorasExtra="9" ImportePagado="225.00"/>
+		<nomina:HorasExtra Dias="2" TipoHoras="Triples" HorasExtra="4" ImportePagado="150.00"/>
+		</nomina:HorasExtras>
+	</nomina:Nomina>
+	</cfdi:Complemento>
+</cfdi:Comprobante>

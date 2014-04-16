@@ -1,0 +1,18 @@
+﻿Fecha de creación:  17/08/2013
+Fecha de actualización:  02/12/2013 (Se agregó ejemplo del complemente nomina para timbrado)
+Departamento: Sistemas 
+Producto/Servicio: WS TimbraCFDI
+
+**Esta carpeta contiene diferentes ejemplos de comprobantes(xmls) sin timbrar para efecto de pruebas**
+
+comprobanteSinTimbrar.xml (Comprobante común)
+comprobanteSinTimbrarDetallista.xml (Incluye el complemento detallista)
+comprobanteSinTimbrarDivisas.xml (Incluye el complemento divisas)
+comprobanteSinTimbrarNomina.xml (Incluye el complemento para recibo de nómina)
+
+Nota: Ninguno de los comprobantes contiene los atributos sello, noCertificado y certificado ya que el servicio de timbrado
+se encarga del sellado, si no desea que el servicio haga el sellado entonces especificarlos.
+
+Nota 2: Para hacer pruebas con estos comprobantes favor de modificar la fecha de emisión por la actual.
+
+**Si necesita de un ejemplo para timbrado que no esté incluido en esta carpeta favor de solicitarlo a soporte@masfacturas.mx**

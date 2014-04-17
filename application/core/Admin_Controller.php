@@ -26,8 +26,10 @@ class Admin_Controller extends MY_Controller
 				$this->session->sess_update();
 			}
 			//$this->constantData['siteName'] = ' | Sistma Integral de Administración';
-			$this->constantData['padre']= $this->_getParent();
-			$this->constantData['hijo']	= $this->_getParent(false);
+			//$this->constantData['padre']= $this->_getParent();
+			//$this->constantData['hijo']	= $this->_getParent(false);
+			$this->constantData['padre'] = $this->uri->segment(2);
+			$this->constantData['hijo'] = $this->uri->segment(3);
 			
 			$this->constantData['clase']		= $this->router->fetch_class();
 			$this->constantData['metodo']		= $this->router->fetch_method();

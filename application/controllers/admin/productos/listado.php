@@ -6,7 +6,7 @@ class Listado extends Admin_Controller{
 		parent::__construct();
 		
 		$this->load->model($this->constantData['ruta_modelo'],'',TRUE);
-		$this->load->model('images_model');
+		//$this->load->model('images_model');
 
 		regiter_css(array('uploadifive','select2','select2-bootstrap'));
 		regiter_script(array('jquery.uploadifive','bootbox.min','select2.min','catalogos'));

@@ -41,7 +41,11 @@
 $route['default_controller'] = "home";
 $route['404_override'] = '';
 
+$route['admin/(:any)/editar/(:num)'] = 'admin/$1/listado/editar/$2';
 
+$route['admin/(:any)/agregar'] = 'admin/$1/listado/agregar';
+
+$route['admin/(:any)'] = 'admin/$1/listado';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

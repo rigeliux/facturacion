@@ -299,21 +299,37 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 52,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 127.0,
+		"height": 104.0,
 		"selected_items":
 		[
+			[
+				"git pull",
+				"Git: Pull Current Branch"
+			],
+			[
+				"git cu",
+				"Git: Pull Current Branch"
+			],
+			[
+				"git pu",
+				"Git: Pull"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"ad",
+				"Git: Add..."
+			],
 			[
 				"git pus",
 				"Git: Push"
@@ -321,6 +337,10 @@
 			[
 				"git com",
 				"Git: Commit"
+			],
+			[
+				"git ad",
+				"Git: Add Current File"
 			],
 			[
 				"git",
@@ -337,14 +357,6 @@
 			[
 				"insta",
 				"Package Control: Install Package"
-			],
-			[
-				"git push",
-				"Git: Push"
-			],
-			[
-				"git ad",
-				"Git: Add Current File"
 			],
 			[
 				"git comm",
@@ -419,7 +431,7 @@
 				"Set Syntax: PHP"
 			]
 		],
-		"width": 512.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -436,15 +448,35 @@
 	},
 	"file_history":
 	[
-		"/D/Respaldos/Rigel/htdocs/facturacion/index.php",
-		"/D/Respaldos/Rigel/htdocs/facturacion/.git/HEAD",
-		"/D/Respaldos/Rigel/htdocs/facturacion/.git/config",
+		"/D/Respaldos/Rigel/htdocs/facturacion/facturacion.sublime-project",
+		"/D/Respaldos/Rigel/htdocs/facturacion/application/config/database.php",
+		"/D/Respaldos/Rigel/htdocs/facturacion/application/config/routes.php",
+		"/D/Respaldos/Rigel/htdocs/facturacion/application/core/Admin_Controller.php",
+		"/D/Respaldos/Rigel/htdocs/facturacion/application/views/admin/comunes/menu - copia.php",
+		"/D/Respaldos/Rigel/htdocs/facturacion/application/views/admin/comunes/menu.php",
+		"/D/Respaldos/Rigel/htdocs/facturacion/application/views/admin/inicio/dashboard.php",
+		"/D/Respaldos/Rigel/htdocs/facturacion/application/config/config.php",
+		"/D/Respaldos/Rigel/htdocs/facturacion/application/views/admin/comunes/top.php",
+		"/D/Respaldos/Rigel/htdocs/facturacion/application/views/admin/comunes/bottom.php",
+		"/D/Respaldos/Rigel/htdocs/facturacion/application/views/admin/comunes/grid.php",
+		"/D/Respaldos/Rigel/htdocs/facturacion/application/controllers/admin/home.php",
+		"/D/Respaldos/Rigel/htdocs/facturacion/application/controllers/admin/us_test.php",
+		"/C/Users/RIGEL/AppData/Roaming/Sublime Text 2/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
 		"/D/Respaldos/Rigel/htdocs/facturacion/README.md",
+		"/D/Respaldos/Rigel/htdocs/recetario/.git/config",
+		"/D/Respaldos/Rigel/htdocs/facturacion/.git/config",
+		"/D/Respaldos/Rigel/htdocs/recetario/.git/description",
+		"/D/Respaldos/Rigel/htdocs/recetario/.git/FETCH_HEAD",
+		"/D/Respaldos/Rigel/htdocs/recetario/.git/HEAD",
+		"/D/Respaldos/Rigel/htdocs/facturacion/.git/packed-refs",
+		"/D/Respaldos/Rigel/htdocs/recetario/.git/packed-refs",
+		"/D/Respaldos/Rigel/htdocs/facturacion/.git/index",
+		"/D/Respaldos/Rigel/htdocs/facturacion/.git/HEAD",
+		"/D/Respaldos/Rigel/htdocs/facturacion/index.php",
 		"/D/Respaldos/Rigel/htdocs/facturacion/.codeintel/config",
 		"/D/Respaldos/Rigel/htdocs/recetario/index.php",
 		"/D/Respaldos/Rigel/htdocs/recetario/.git/hooks/prepare-commit-msg",
 		"/C/Users/RIGEL/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
-		"/C/Users/RIGEL/AppData/Roaming/Sublime Text 2/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
 		"/D/Respaldos/Rigel/htdocs/recetario/index.html",
 		"/D/Respaldos/Rigel/htdocs/recetario/application/views/admin/recetas/listado/edit.php",
 		"/D/Respaldos/Rigel/htdocs/recetario/assets/js/config.validator.js",
@@ -543,27 +575,7 @@
 		"/D/Respaldos/Rigel/htdocs/bci/class/updater-class.php",
 		"/D/Respaldos/Rigel/htdocs/bci/files/cat_ciudades.xml",
 		"/D/Respaldos/Rigel/htdocs/thewebtravel/bueno/themes/admin/views/layouts/main.php",
-		"/D/Respaldos/Rigel/htdocs/thewebtravel/bueno/protected/views/layouts/main.php",
-		"/D/Respaldos/Rigel/htdocs/bci/files/cat_fraccionamientos.xml",
-		"/D/Respaldos/Rigel/htdocs/thewebtravel/bueno/protected/controllers/BookingController.php",
-		"/D/Respaldos/Rigel/htdocs/thewebtravel/bueno/themes/thewebtravel/views/booking/printvoucher.php",
-		"/D/Respaldos/Rigel/htdocs/thewebtravel/bueno/themes/thewebtravel/views/booking/vouchers/tours.php",
-		"/D/Respaldos/Rigel/htdocs/thewebtravel/bueno/themes/thewebtravel/views/booking/vouchers/roundtrips.php",
-		"/D/Respaldos/Rigel/htdocs/thewebtravel/bueno/themes/thewebtravel/views/hoteles/detalle.php",
-		"/D/Respaldos/Rigel/htdocs/thewebtravel/bueno/protected/models/RoundtripDescription.php",
-		"/D/Respaldos/Rigel/htdocs/thewebtravel/bueno/protected/controllers/SiteController.php",
-		"/D/Respaldos/Rigel/htdocs/thewebtravel/bueno/protected/models/Booking.php",
-		"/D/Respaldos/Rigel/htdocs/thewebtravel/bueno/themes/thewebtravel/views/booking/voucher.php",
-		"/D/Respaldos/Rigel/htdocs/Paginas-terminadas/14-01-15-hhh/hhh.sublime-project",
-		"/D/Respaldos/Rigel/htdocs/Paginas-terminadas/14-02-01-balcon/balcon.sublime-project",
-		"/D/Respaldos/Rigel/htdocs/thewebtravel/bueno/protected/models/RoundtripDias.php",
-		"/D/Rigel/Desktop/borrar/Nueva carpeta (6)/Nueva carpeta/error_log.txt",
-		"/D/Respaldos/Rigel/htdocs/thewebtravel/bueno/protected/models/Hotel.php",
-		"/D/Respaldos/Rigel/htdocs/thewebtravel/bueno/protected/models/BookingTour.php",
-		"/D/Respaldos/Rigel/htdocs/thewebtravel/bueno/BookingController.php",
-		"/D/Respaldos/Rigel/htdocs/thewebtravel/bueno/protected/models/TransferRatesZones.php",
-		"/D/Respaldos/Rigel/htdocs/thewebtravel/bueno/themes/thewebtravel/css/tours.css",
-		"/D/Respaldos/Rigel/htdocs/thewebtravel/bueno/themes/thewebtravel/views/theme/tours.php"
+		"/D/Respaldos/Rigel/htdocs/thewebtravel/bueno/protected/views/layouts/main.php"
 	],
 	"find":
 	{
@@ -741,229 +753,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "README.md",
-					"settings":
-					{
-						"buffer_size": 52,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								52,
-								52
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 4,
-									"codeintel_scan_files_in_project": true,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails",
-								"HTML5"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublime_auto_complete": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1012,6 +803,18 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"data",
+				"application/config/database.php"
+			],
+			[
+				"rout",
+				"application/config/routes.php"
+			],
+			[
+				"config",
+				"application/config/config.php"
+			],
 			[
 				"recetaslistadoad",
 				"application/views/admin/recetas/listado/add.php"
@@ -1265,10 +1068,6 @@
 				"application/controllers/admin/funcion.php"
 			],
 			[
-				"config",
-				"assets/js/config.dialogs.js"
-			],
-			[
 				"slide_mo",
 				"application/models/slides_model.php"
 			],
@@ -1515,14 +1314,6 @@
 			[
 				"hom",
 				"application/controllers/home.php"
-			],
-			[
-				"web",
-				"application/models/productos/web_listado_model.php"
-			],
-			[
-				"hel",
-				"application/helpers/admin_helper.php"
 			]
 		],
 		"width": 0.0
